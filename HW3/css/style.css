@@ -1,0 +1,74 @@
+#top{
+   
+    border-image-repeat: repeat;
+    border: 10px double black;
+    background width: 100em;
+    background:url("../css/images/color.jpg");
+    background-repeat: repeat;
+    height: 450px; 
+    margin-top: 20px;
+    font-family: serif;
+    word-spacing: 1em;
+    font-size: 18pt;
+    
+    
+}
+h1{
+    text-align:justify;
+    font-family: sans-serif;
+    word-spacing: 1em;
+    letter-spacing: 1em;
+    font-size: 3em;
+    
+
+}
+
+body{
+    text-align:center;
+    background-color:azure;
+    font-family: sans-serif;
+
+    
+} 
+
+img {
+    border-radius: 90%;
+    width: 14em;
+    float: right;
+   
+}
+img.align-right{
+    float: right;
+    margin-right: 10px;
+}
+
+
+.column1of3, .column2of3, .column3of3{
+    float: left;
+    width: 300px;
+    margin: 90px;
+    background-color:antiquewhite;
+    border-color: black;
+    border-style: double;
+    padding: 5px;
+    border-radius: 10px;
+    line-height: 1.8em;
+    word-spacing: .25em;
+    border-width: thick;
+    font-size: 20px;
+    text-transform: capitalize;
+   
+}
+ .buttons {
+  background-color:crimson;
+  border: none;
+  color:palegoldenrod;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px;
+  cursor: pointer;
+  border-radius: 50%;
+} 
